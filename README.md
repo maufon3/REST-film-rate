@@ -27,7 +27,7 @@ Two modes available to run the container
 	`sudo docker run -i --rm film-rating`
   
 2) single film evaluation<br/>
-	`sudo docker run --rm film-rating "film name"`
+	`sudo docker run -i --rm film-rating "film name"`
 
 ## OPTION2: Run the program from command line
 Make sure "requests" library is installed with the command<br/>
